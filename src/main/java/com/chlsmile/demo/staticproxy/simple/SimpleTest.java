@@ -1,7 +1,7 @@
 package com.chlsmile.demo.staticproxy.simple;
 
 /**
- * Function:
+ * Function:简单的静态代理实现(不需要借助于任务其它类即可实现)
  * User: chl_smile@163.com
  */
 public class SimpleTest {
