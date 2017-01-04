@@ -1,4 +1,4 @@
-package com.chlsmile.demo.staticproxy.simple;
+package com.chlsmile.demo.staticproxy;
 
 /**
  * Function:

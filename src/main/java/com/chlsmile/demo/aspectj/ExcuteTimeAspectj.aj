@@ -1,4 +1,4 @@
-package com.chlsmile.demo.staticproxy.aspectj;
+package com.chlsmile.demo.aspectj;
 
 /**
  * Function:
@@ -6,7 +6,7 @@ package com.chlsmile.demo.staticproxy.aspectj;
  */
 public aspect ExcuteTimeAspectj {
 
-    pointcut ExcuteTimePointCut():execution(* com.chlsmile.demo.staticproxy.aspectj.UserServiceImpl.*(..));
+    pointcut ExcuteTimePointCut():execution(* com.chlsmile.demo.aspectj.UserServiceTest.addUser());
 
     before():ExcuteTimePointCut(){
         System.out.println("记录时间开始 Aspectj ...");
@@ -15,5 +15,7 @@ public aspect ExcuteTimeAspectj {
     after():ExcuteTimePointCut(){
         System.out.println("记录时间结束 Aspectj ...");
     }
+
+
 
 }

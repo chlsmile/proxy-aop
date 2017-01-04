@@ -1,4 +1,4 @@
-package com.chlsmile.demo.staticproxy.simple;
+package com.chlsmile.demo.staticproxy;
 
 /**
  * Function:简单的静态代理实现(不需要借助于任务其它类即可实现)
